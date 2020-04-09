@@ -8,7 +8,7 @@
   ?>
   <!--	List Product	-->
                <div class="products">
-                   <div id="search-result">Kết quả tìm kiếm với sản phẩm: <span><b><?php echo $key; ?></b></span></div>
+                   <div id="search-result">Kết quả tìm kiếm với sản phẩm: <span><?php echo $key; ?></span></div>
                    <div class="row">
                        <?php 
                        while($prd=mysqli_fetch_array($query)){
