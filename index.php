@@ -6,7 +6,7 @@ define('SECURITY', true);
 include_once('config/connect.php');
 include_once('modules/paginate/paginate.php');
 
-    $sql_cate="SELECT * FROM category ORDER BY cat_id DESC";
+    $sql_cate="SELECT * FROM category ORDER BY cat_id ASC";
     $query_cate=mysqli_query($connect,$sql_cate);
 ?>
 <!DOCTYPE html>
